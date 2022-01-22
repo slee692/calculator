@@ -1,0 +1,15 @@
+.buttons {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: bisque;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    width: 500px;
+}
+
+.button:hover {
+    background-color: #B87333;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+
